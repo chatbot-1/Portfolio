@@ -5,6 +5,7 @@
     padding-bottom: 3rem;
 }
 .contact--title{
+    color: #A9A9A9;
     text-align: center;
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
@@ -17,7 +18,7 @@
     grid-template-columns: 300px;
 }
 .contact--card{
-    background-color: var(--container-color);
+    background-color: #1a1831;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     border-radius: 0.75rem;
@@ -25,11 +26,12 @@
 }
 .contact--card-icon{
     font-size: 2rem;
-    color: var(--title-color);
+    color: #A9A9A9;
     margin-bottom: var(--mb-0-25);
 }
 .contact--card-title,
 .contact--card-data{
+    color: #808080;
     font-size: var(--small-font-size);
 }
 .contact--card-title{
@@ -69,21 +71,24 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 2px solid rgba(0, 0, 0, 0.4);
+    border: none;
+    border: 2px solid #110f1f;
     background: none;
-    color: var(--text-color);
+    color: #808080;
     outline: none;
     border-radius: 0.75rem;
     padding: 1.5rem;
+    background-color: #1a1831;
     z-index: 1;
 }
 .contact--form-tag{
+    color: #A9A9A9;
     position: absolute;
     top: -0.75rem;
     left: 1.25rem;
     font-size: var(--smaller-font-size);
     padding: 0.25rem;
-    background-color: var(--body-color);
+    background-color: transparent;
     z-index: 10;
 }
 .contact--form-area{

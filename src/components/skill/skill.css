@@ -4,12 +4,13 @@
     justify-content: center;
 }
 .skills--content{
-    background-color: var(--container-color);
+    background-color: #1a1831;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
 }
 .skills--title{
+    color: #A9A9A9;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
@@ -26,14 +27,16 @@
     row-gap: 1rem;
 }
 .skills--data{
+    color: #808080;
     display: flex;
     column-gap: 0.5rem;
 }
 .skills .bx-badge-check {
+    color: #A9A9A9;
     font-size: 1rem;
-    color: var(--title-color);
 }
 .skills--name{
+    color: #A9A9A9	;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;

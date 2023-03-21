@@ -9,19 +9,20 @@
 .educa--button{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: var(--title-color);
+    color: #808080;
     margin: 0 var(--mb-1);
     cursor: pointer;
 }
-.educa--button:hover{
-    color: var(--title-color-dark);
+.educa--active:hover{
+    border-bottom: 1px solid #A9A9A9;
 }
 .educa--icon{
     font-size: 1.8rem;
     margin-right: var(--mb-0-25);
 }
 .educa--active{
-    color: var(--title-color-dark);
+    /* border-bottom: 1px solid #A9A9A9; */
+    color: #A9A9A9;
 }
 .educa--sections{
     display: grid;
@@ -40,15 +41,18 @@
     column-gap: 1.5rem;
 }
 .educa--title{
+    color: #A9A9A9;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 .educa--subtitle{
+    color: #808080;
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
 }
 .educa--calendar{
+    color: #808080;
     font-size: var(--small-font-size);
 }
 .educa--rounder{

@@ -3,18 +3,24 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2.5rem;
+    justify-content: center;
 }
 .card--item{
-    background: rgba(0, 0, 0, 0.459);
+    background: #1a1831;
     padding: 1.3rem;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     text-align: center;
 }
+.card--item-image{
+    padding: 1rem 1.1rem;
+    width: 100%;
+    height: 170px;
+}
 .card--item h3{
-    color: black;
+    color: #A9A9A9;
 }
  .btnn{
-    color: var(--title-color);
+    color: #808080;
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
@@ -25,15 +31,17 @@
     margin-bottom: 20px;
 }
 .btn{
-    border: 2px solid black;
-    padding: 8px 12px;
+    border: 1px solid #252246;
+    padding: 8px 22px;
+    margin: 0.5rem;
     color: white;
     text-align: center;
     border-radius: 10px;
     transition: 0.1s ease-in;
 }
 .btn:hover{
-    background-color: black;
+    background-color: #252246;
+    border: #1a1831;
     color: white;
 }
 

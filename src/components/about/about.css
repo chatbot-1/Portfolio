@@ -3,29 +3,37 @@
     align-items: center;
     column-gap: 4rem;
 }
+.section--title {
+    color: #A9A9A9;
+}
 .about--img{
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
 }
 .about--info{
+    color: #808080;
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
 }
+.uil-file-download-alt{
+    padding-left: 10px;
+}
 .about--box{
-    background-color: var(--container-color);
+    background-color: #1a1831;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
 }
 .about--icon{
+    color: #A9A9A9;
     font-size: 1.5rem;
-    color: var(--title-color);
     margin-bottom: var(--mb-0-5);
 }
 .about--title{
+    color: #A9A9A9;
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }

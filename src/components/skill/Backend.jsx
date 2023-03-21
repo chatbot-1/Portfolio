@@ -18,14 +18,14 @@ export const Backend = () => {
           <div className="skills--data">
             <i class='bx bx-badge-check'></i>
             <div>
-              <h3 className="skills--name">MySql</h3>
+              <h3 className="skills--name">MySQL</h3>
               <span className="skills--level">Intermediate</span>
             </div>
           </div>
           <div className="skills--data">
             <i class='bx bx-badge-check'></i>
             <div>
-              <h3 className="skills--name">Node-js</h3>
+              <h3 className="skills--name">NodeJS</h3>
               <span className="skills--level">Basic</span>
             </div>
           </div>
@@ -35,7 +35,7 @@ export const Backend = () => {
           <div className="skills--data">
             <i class='bx bx-badge-check'></i>
             <div>
-              <h3 className="skills--name">Mongo-db</h3>
+              <h3 className="skills--name">MongoDB</h3>
               <span className="skills--level">Basic</span>
             </div>
           </div>
@@ -49,7 +49,7 @@ export const Backend = () => {
           <div className="skills--data">
             <i class='bx bx-badge-check'></i>
             <div>
-              <h3 className="skills--name">Git</h3>
+              <h3 className="skills--name">ExpressJS</h3>
               <span className="skills--level">Intermediate</span>
             </div>
           </div>

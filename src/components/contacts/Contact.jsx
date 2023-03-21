@@ -18,6 +18,20 @@ export default function Contact() {
       e.target.reset()
   };
 
+
+  const confirm = () => {
+    let x = document.getElementById("name");
+    let y = document.getElementById("email");
+    let z = document.getElementById("text");
+    if(x.value == "" && y.value == "" && z.value == "") {
+      alert("Please enter all the details correctly.")
+      return false
+    } else {
+      alert("Email sent succefully.")
+    }
+  }
+
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section--title">Get In Touch</h2>
@@ -74,9 +88,9 @@ export default function Contact() {
         <div className="contact--content">
           <h3 className="contact--title">Write me your project</h3>
 
-          <form ref={form} onSubmit={sendEmail} className="contact--form">
+          <form name="" ref={form} onSubmit={sendEmail} className="contact--form">
             <div className="contact--form-div">
-              <label className="contact--form-tag">Name</label>
+              <label className="contact--form-tag" id="name">Name</label>
               <input
                 type="text"
                 name="name"
@@ -104,7 +118,7 @@ export default function Contact() {
               ></textarea>
             </div>
 
-            <button href="#contact" className="button button-flex">
+            <button href="#contact" className="button button-flex" onClick={confirm}>
               Send message
               <i class="uil uil-message"></i>
             </button>

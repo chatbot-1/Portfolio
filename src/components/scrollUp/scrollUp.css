@@ -2,7 +2,7 @@
     position: fixed;
     right: 2.5rem;
     bottom: -20%;
-    background-color: var(--title-color);
+    background-color: #0f0e1d;
     opacity: 0.8;
     padding: 0.3rem 0.5rem;
     border-radius: 0.4rem;
@@ -14,7 +14,7 @@
     color: var(--container-color);
 }
 .scrollup:hover{
-    background-color: var(--title-color-dark);
+    background-color: #1a1831;
 }
 
 .show-scroll{

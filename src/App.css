@@ -65,8 +65,9 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  background-color: #2a2438 ;
   color: var(--text-color);
+  
 }
 
 h1,

@@ -18,8 +18,8 @@ export const Service = () => {
           <div>
             <i className="uil uil-web-grid services--icon"></i>
             <h3 className="services--title">
-              Product <br />
-              Designer
+              Frontend <br />
+              Developer
             </h3>
           </div>
           <span className="services--button" onClick={() => toggleTab(1)}>
@@ -38,11 +38,10 @@ export const Service = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services--modal-close"
               ></i>
-              <h3 className="services--modal-title">Product Designer</h3>
+              <h3 className="services--modal-title">Frontend Developer</h3>
               <p className="services--modal-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex non
-                inventore fugit tempora voluptatibus voluptatum quis nulla
-                itaque nam rem?
+                I use ReactJS Library to create the user interative & responsive
+                web apps with the help of Javascript and tailwind CSS
               </p>
               <ul className="services--modal-services grid">
                 <li className="services--modal-service">
@@ -53,7 +52,9 @@ export const Service = () => {
                 </li>
                 <li className="services--modal-service">
                   <i className="uil uil-check-circle services--modal-icon"></i>
-                  <p className="services--modal-info">Web Page Development</p>
+                  <p className="services--modal-info">
+                    Uses the Three.js to create the animations.
+                  </p>
                 </li>
                 <li className="services--modal-service">
                   <i className="uil uil-check-circle services--modal-icon"></i>
@@ -64,13 +65,13 @@ export const Service = () => {
                 <li className="services--modal-service">
                   <i className="uil uil-check-circle services--modal-icon"></i>
                   <p className="services--modal-info">
-                    I position your company brand.
+                    I work with the frontend team.
                   </p>
                 </li>
                 <li className="services--modal-service">
                   <i className="uil uil-check-circle services--modal-icon"></i>
                   <p className="services--modal-info">
-                    Design and markups of product for comapnies
+                    Open Source Contributions.
                   </p>
                 </li>
               </ul>
@@ -103,9 +104,8 @@ export const Service = () => {
               ></i>
               <h3 className="services--modal-title">UI/UX Designer</h3>
               <p className="services--modal-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex non
-                inventore fugit tempora voluptatibus voluptatum quis nulla
-                itaque nam rem?
+                By Using HTML and CSS I can create minimalistic user interface
+                for the appropriate task.
               </p>
               <ul className="services--modal-services grid">
                 <li className="services--modal-service">
@@ -127,7 +127,7 @@ export const Service = () => {
                 <li className="services--modal-service">
                   <i className="uil uil-check-circle services--modal-icon"></i>
                   <p className="services--modal-info">
-                    I position your company brand.
+                    I can create the multipages web app.
                   </p>
                 </li>
                 <li className="services--modal-service">
@@ -145,7 +145,7 @@ export const Service = () => {
           <div>
             <i className="uil uil-edit services--icon"></i>
             <h3 className="services--title">
-              Visual <br /> Designer
+              Java <br /> Developer
             </h3>
           </div>
           <span className="services--button" onClick={() => toggleTab(3)}>
@@ -160,40 +160,44 @@ export const Service = () => {
             }
           >
             <div className="services--modal-content">
-              <i onClick={()=>toggleTab(0)} className="uil uil-times services--modal-close"></i>
-              <h3 className="services--modal-title">Visual Designer</h3>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services--modal-close"
+              ></i>
+              <h3 className="services--modal-title">Java Developer</h3>
               <p className="services--modal-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex non
-                inventore fugit tempora voluptatibus voluptatum quis nulla
-                itaque nam rem?
+                I use Java in data structure and algorithm's and object oriented
+                programming
               </p>
               <ul className="services--modal-services grid">
                 <li className="services--modal-service">
                   <i className="uil uil-check-circle services--modal-icon"></i>
                   <p className="services--modal-info">
-                    I develop the user interface
-                  </p>
-                </li>
-                <li className="services--modal-service">
-                  <i className="uil uil-check-circle services--modal-icon"></i>
-                  <p className="services--modal-info">Web Page Development</p>
-                </li>
-                <li className="services--modal-service">
-                  <i className="uil uil-check-circle services--modal-icon"></i>
-                  <p className="services--modal-info">
-                    Help with hosting the websites.
+                    Data structure and algorithm's.
                   </p>
                 </li>
                 <li className="services--modal-service">
                   <i className="uil uil-check-circle services--modal-icon"></i>
                   <p className="services--modal-info">
-                    I position your company brand.
+                    100+ submission on the Leetcode.
+                    </p>
+                </li>
+                <li className="services--modal-service">
+                  <i className="uil uil-check-circle services--modal-icon"></i>
+                  <p className="services--modal-info">
+                    Rank 30 in the in Geeksforgeeks platform at college level.
                   </p>
                 </li>
                 <li className="services--modal-service">
                   <i className="uil uil-check-circle services--modal-icon"></i>
                   <p className="services--modal-info">
-                    Design and markups of product for comapnies
+                    Competetive programming using Java.
+                  </p>
+                </li>
+                <li className="services--modal-service">
+                  <i className="uil uil-check-circle services--modal-icon"></i>
+                  <p className="services--modal-info">
+                    Sometimes I use Java as a backend in the development.
                   </p>
                 </li>
               </ul>
