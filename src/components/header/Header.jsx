@@ -19,6 +19,7 @@ export default function Header() {
         </a>
 
         <div className={Toggle ? "nav--menu show--menu" : "nav--menu"}>
+
           <ul className="nav--list grid">
             <li className="nav--item">
               <a
@@ -96,6 +97,7 @@ export default function Header() {
               </a>
             </li>
           </ul>
+          
           <i
             className="uil uil-times nav--close"
             onClick={() => showMenu(!Toggle)}

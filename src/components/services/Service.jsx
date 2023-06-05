@@ -14,6 +14,7 @@ export const Service = () => {
       <span className="section--subtitle">What I Offer</span>
 
       <div className="services--container container grid">
+
         <div className="services--content">
           <div>
             <i className="uil uil-web-grid services--icon"></i>
@@ -79,7 +80,7 @@ export const Service = () => {
           </div>
         </div>
 
-        <div className="services--content">
+        {/* <div className="services--content">
           <div>
             <i className="uil uil-arrow services--icon"></i>
             <h3 className="services--title">
@@ -139,7 +140,7 @@ export const Service = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="services--content">
           <div>
@@ -204,6 +205,7 @@ export const Service = () => {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

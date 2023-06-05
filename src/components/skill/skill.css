@@ -9,6 +9,12 @@
     padding: 2rem 4rem;
     border-radius: 1.25rem;
 }
+.frontend{
+    box-shadow: -82px 30px 255px -55px rgba(47,98,71,1)
+}
+.backend{
+    box-shadow: 92px 38px 255px -55px rgba(47,98,71,1)
+}
 .skills--title{
     color: #A9A9A9;
     font-size: var(--normal-font-size);

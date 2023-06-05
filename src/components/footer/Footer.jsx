@@ -12,21 +12,21 @@ export default function Footer() {
             <a href="#about" className="footer--link">About</a>
           </li>
           <li>
-            <a href="#cards" className="footer--link">Projects</a>
+            <a href="#card" className="footer--link">Projects</a>
           </li>
           <li>
-            <a href="#education" className="footer--link">Qualifications</a>
+            <a href="#educa" className="footer--link">Qualifications</a>
           </li>
         </ul>
 
         <div className="footer--socials">
-            <a href="" className="footer--social-link" target="_blank">
-                <i class="uil uil-instagram"></i>
+            <a href="https://github.com/chatbot-1" className="footer--social-link" target="_blank">
+                <i class="uil uil-github"></i>
             </a>
-            <a href="" className="footer--social-link" target="_blank">
+            <a href="https://www.linkedin.com/in/atul-singh-1091131ba/" className="footer--social-link" target="_blank">
                 <i class="bx bxl-linkedin"></i>
             </a>
-            <a href="" className="footer--social-link" target="_blank">
+            <a href="https://twitter.com/itsmeatul_" className="footer--social-link" target="_blank">
                 <i class="bx bxl-twitter"></i>
             </a>
         </div>

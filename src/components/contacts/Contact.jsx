@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import "./contact.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
   const form = useRef();
@@ -18,19 +20,13 @@ export default function Contact() {
       e.target.reset()
   };
 
-
   const confirm = () => {
-    let x = document.getElementById("name");
-    let y = document.getElementById("email");
-    let z = document.getElementById("text");
-    if(x.value == "" && y.value == "" && z.value == "") {
-      alert("Please enter all the details correctly.")
-      return false
-    } else {
-      alert("Email sent succefully.")
-    }
+    toast.success("Message sent successfully!", {
+      position: "top-center",
+      theme: "colored"
+    });
   }
-
+  
 
   return (
     <section className="contact section" id="contact">
@@ -122,6 +118,7 @@ export default function Contact() {
               Send message
               <i class="uil uil-message"></i>
             </button>
+            <ToastContainer />
           </form>
         </div>
       </div>

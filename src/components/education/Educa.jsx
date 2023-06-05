@@ -8,7 +8,7 @@ export const Educa = () => {
   };
 
   return (
-    <section className="educa section">
+    <section className="educa section" id="educa">
       <h2 className="section--title">Qualifications</h2>
       <span className="section--subtitle">My personal journey</span>
       <div className="educa--container container">
@@ -70,45 +70,12 @@ export const Educa = () => {
                 <span className="educa--line"></span>
               </div>
               <div>
-                <h3 className="educa--title">Java Development</h3>
+                <h3 className="educa--title">Project Intern</h3>
                 <span className="educa--subtitle">
-                  2+ years of working Experience
-                </span>
-                {/* <div className="educa--calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - present
-                </div> */}
-              </div>
-            </div>
-
-            <div className="educa--data">
-              <div>
-                <h3 className="educa--title">Frontend Development</h3>
-                <span className="educa--subtitle">
-                  2+ years of working experience
-                </span>
-                {/* <div className="educa--calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - present
-                </div> */}
-              </div>
-              <div>
-                <span className="educa--rounder"></span>
-                <span className="educa--line"></span>
-              </div>
-            </div>
-
-            <div className="educa--data">
-              <div></div>
-              <div>
-                <span className="educa--rounder"></span>
-                <span className="educa--line"></span>
-              </div>
-              <div>
-                <h3 className="educa--title">Database Management</h3>
-                <span className="educa--subtitle">
-                  IIMT College Of engineering
+                  Final Project
                 </span>
                 <div className="educa--calendar">
-                  Worked with MySql 
+                  <i className="uil uil-calendar-alt"></i> April 2023 - May 2023
                 </div>
               </div>
             </div>

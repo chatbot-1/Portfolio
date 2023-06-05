@@ -1,7 +1,10 @@
 .educa--container{
     max-width: 768px;
+
 }
 .educa--tabs{
+    box-shadow: 183px -32px 186px -13px rgba(47,103,71,1);
+
     display: flex;
     justify-content: center;
     margin-bottom: var(--mb-2);
@@ -25,9 +28,11 @@
     color: #A9A9A9;
 }
 .educa--sections{
+    /* background: transparent; */
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
+
 }
 .educa--content{
     display: none;
@@ -36,6 +41,7 @@
     display: block;
 }
 .educa--data{
+    background: transparent;
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;

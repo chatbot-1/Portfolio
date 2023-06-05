@@ -1,13 +1,14 @@
 .services--container{
-    grid-template-columns: repeat(3, 270px);
+    grid-template-columns: repeat(2, 270px);
     justify-content: center;
-    column-gap: 3.8rem;
+    column-gap: 1.8rem;
 }
 
 .services--content{
+    border-radius: 25px;
+    box-shadow: 6px -6px 186px -41px rgba(47,103,71,1);
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--container-color);
     padding: 6rem 0 2rem 2.5rem;
     background-color: #1a1831;
 }
@@ -112,7 +113,7 @@
 
 @media screen and (max-width: 992px) {
     .services--container{
-        grid-template-columns: repeat(3, 218px);
+        grid-template-columns: repeat(2, 218px);
     }
 }
 @media screen and (max-width: 768px) {
