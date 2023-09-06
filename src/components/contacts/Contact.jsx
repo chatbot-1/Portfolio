@@ -20,12 +20,12 @@ export default function Contact() {
       e.target.reset()
   };
 
-  const confirm = () => {
-    toast.success("Message sent successfully!", {
-      position: "top-center",
-      theme: "colored"
-    });
-  }
+  // const confirm = () => {
+  //   toast.success("Message sent successfully!", {
+  //     position: "top-center",
+  //     theme: "colored"
+  //   });
+  // }
   
 
   return (
@@ -88,6 +88,7 @@ export default function Contact() {
             <div className="contact--form-div">
               <label className="contact--form-tag" id="name">Name</label>
               <input
+              required
                 type="text"
                 name="name"
                 className="contact--form-input"
@@ -97,6 +98,7 @@ export default function Contact() {
             <div className="contact--form-div">
               <label className="contact--form-tag">Email</label>
               <input
+              required
                 type="email"
                 name="email"
                 className="contact--form-input"
@@ -106,6 +108,7 @@ export default function Contact() {
             <div className="contact--form-div contact--form-area">
               <label className="contact--form-tag">Projects</label>
               <textarea
+              required
                 name="project"
                 cols="30"
                 rows="10"
@@ -114,7 +117,7 @@ export default function Contact() {
               ></textarea>
             </div>
 
-            <button href="#contact" className="button button-flex" onClick={confirm}>
+            <button href="#contact" className="button button-flex" >
               Send message
               <i class="uil uil-message"></i>
             </button>
